@@ -22,6 +22,9 @@ main{
     color: #979595;
     padding: 1%;
     font-weight:700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #sidebar i {
@@ -71,6 +74,30 @@ ul{
     font-size: 13px;
 }
 
+#sidebar div:last-child div{
+    display:flex;
+    align-items: center;
+}
+
+#sidebar div:last-child div:first-child i{
+        font-size: 15px;
+        margin-right: 5%;
+}
+
+#sidebar div:last-child div:last-child p{
+        font-size: 18px;
+        color: white;
+} 
+
+#sidebar div:last-child div:last-child i{
+    font-size: 30px;
+    margin-right: 5%;
+}
+
+#sidebar hr{
+    border-color:#4a4a4a;
+    margin: 6% 0;
+}
 
 
 #listdisk{
