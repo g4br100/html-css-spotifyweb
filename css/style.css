@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    background-color: #4a4a4a;
+    color: white;
+}
+
+
+#main-nav{
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#brano{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#brano div:first-child{
+    display: flex;
+}
+
+#brano img{
+    width:10%;
+}
+
+#player{
+    text-align: center;
+    width: 60%;
+}
+
+#player i:nth-of-type(3){
+    width: 5%;
+    font-size: 30px;
+}
+
+#player i{
+    width: 5%;
+    font-size: 20px;
+}
+
+
+#speaker{
+    text-align: center;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#sbar{
+    width: 20%;
+    height: 5px;
+    background-color: #807f7f;
+    margin: 0 1%;
+}
+
+
+#sbard{
+    width: 50%;
+    height: 5px;
+    background-color: #cac9c9;
+}
+
+#speaker i{
+    width: 6%;
+}
+
+#bar{
+    width: 60%;
+    height: 5px;
+    background-color: #807f7f;
+    margin: 1% 3%;
+}
+
+#darkb{
+    width: 20%;
+    height: 5px;
+    background-color: #cac9c9;
+}
+
+
+#player div:nth-of-type(2){
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
