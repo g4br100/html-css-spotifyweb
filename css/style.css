@@ -23,12 +23,23 @@ footer{
     width: 30%;
 }
 
-#brano div:first-child{
-    display: flex;
+#brano i{
+    margin: 0 1%;
 }
+
+#brano div{
+    margin-right: 10%;
+    font-size: 12px;
+}
+
+#brano div b{
+    font-size: 15px;
+}
+
 
 #brano img{
     width:10%;
+    margin-right: 3%;
 }
 
 #player{
